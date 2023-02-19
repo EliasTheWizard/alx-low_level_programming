@@ -2,8 +2,9 @@
 #include<string.h>
 
 /**
- * The multilingual Puzzle
- * main : prints outs string to output
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
