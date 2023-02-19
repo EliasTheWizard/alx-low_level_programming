@@ -1,7 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 
-/* The multilingual Puzzle */
+/**
+ * The multilingual Puzzle
+ * main : prints outs string to output
+ */
 
 int main(void)
 {
