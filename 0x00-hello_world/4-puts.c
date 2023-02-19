@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-/**
- * The multilingual Puzzle
- */
+/* The multilingual Puzzle */
 
 int main(void)
 {
