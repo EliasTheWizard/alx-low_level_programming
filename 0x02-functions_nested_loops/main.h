@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include "_putchar.c"
-/**
- * print_alphabet Protoype
- */
+#include <instdio.h>
+
 void print_alphabet(void);
 int _putchar(char);
 
