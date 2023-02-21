@@ -27,7 +27,7 @@ void print_alphabet()
 
   alphabet = 'a';
   while (alphabet <= 'z') {
-    _putchar(letter);
+    _putchar(alphabet);
     alphabet++;
   }
 }
