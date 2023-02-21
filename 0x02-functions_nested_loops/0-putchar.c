@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
  * Main: Entry Point
@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	puts("_putchar");
+	print_out();
 
 	return (0);
 }
