@@ -1,14 +1,18 @@
 #include<stdio.h>
 #include<unistd.h>
 
+int _putchar(char c);
+void print_alphabet(void)
 /**
- * alpha_low - output characters
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: 0 (Success)
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-void alpha_low(char x)
+int _putchar(char c)
 {
-	write(STDOUT_FILENO, &x, 1);
+	return (write(STDOUT_FILENO, &c, 1));
 }
 
 /**
@@ -25,7 +29,7 @@ void print_alphabet()
 
         while(alpha <= 'z')
         {
-                alpha_low(alpha);
+               _putchar(alpha);
 
                 alpha++;
         }
