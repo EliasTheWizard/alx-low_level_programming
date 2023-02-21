@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	print_out();
+	print_char();
 
 	return (0);
 }
