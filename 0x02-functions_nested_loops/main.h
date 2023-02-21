@@ -2,7 +2,7 @@
 #include<unistd.h>
 
 int _putchar(char c);
-void print_alphabet(void)
+void print_alphabet(void);
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -12,7 +12,7 @@ void print_alphabet(void)
  */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+	return (write(STDOUT_FILENO, &c, 1));
 }
 
 /**
