@@ -3,7 +3,7 @@
 /**
  * _islower - Checks if a character is in lower case or not
  *
- * ch: variable to hold ASCII code of input character
+ * @ch: variable to hold ASCII code of input character
  *
  * Return: 1 if ch is in lower case else 0
  */
