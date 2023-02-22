@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	int W_count = 8; /* keeps the number of letters needed to write the word _putchar*/
-	char Word[W_count] = "_putchar";
-	int ls = 0
+	/* keeps the number of letters needed to write the word _putchar*/
+	char Word[] = "_putchar";
+	int W_count = 0;
 		
-	while (ls < W-count)
+	while (W_count < 8)
 	{
-		_putchar(Word[ls] + "\n");
+		_putchar(Word[w_count] + "\n");
 		ls++;
 	}
 
