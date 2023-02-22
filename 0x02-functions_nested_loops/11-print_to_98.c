@@ -1,16 +1,27 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_to_98 - print out numbers from input num to 98
  *
- * Return: Always 0.
+ * @num: Starting number
+ *
+ * Return: void
  */
-int main(void)
-{
-    print_to_98(0);
-    print_to_98(98);
-    print_to_98(111);
-    print_to_98(81);
-    print_to_98(-10);
-    return (0);
+ void print_to_98(int num)
+ {
+    if (num < 98)
+    {
+        for (num = num; num <= 98; num++)
+        {
+            printf("%d, ", num);
+        }
+    }
+    else
+    {
+        for (num = num; num >= 98; num--)
+        {
+            printf("%d, ", num);
+        }
+    }
+    _putchar('\n');
 }
