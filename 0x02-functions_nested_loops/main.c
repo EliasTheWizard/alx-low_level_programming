@@ -12,20 +12,3 @@ int  _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
-
-/**
- * print_alphabet - Prints alphabet in lower case
- *
- * Return: the alphabet
- */
- 
-void print_alphabet()
-{
-	char alphabet;
-
-  alphabet = 'a';
-  while (alphabet <= 'z') {
-    _putchar(alphabet);
-    alphabet++;
-  }
-}
