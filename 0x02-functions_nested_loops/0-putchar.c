@@ -16,7 +16,7 @@ int main(void)
 	while (W_count < 8)
 	{
 		_putchar(Word[W_count]);
-		ls++;
+		W_count++;
 	}
 
 	return (0);
