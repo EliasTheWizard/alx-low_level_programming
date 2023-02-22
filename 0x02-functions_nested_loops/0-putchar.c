@@ -9,7 +9,15 @@
 
 int main(void)
 {
-	print_char();
+	int W_count = 8; /* keeps the number of letters needed to write the word _putchar*/
+	char Word[W_count] = "_putchar";
+	int ls = 0
+		
+	while (ls < W-count)
+	{
+		_putchar(Word[ls] + "\n");
+		ls++;
+	}
 
 	return (0);
 }
