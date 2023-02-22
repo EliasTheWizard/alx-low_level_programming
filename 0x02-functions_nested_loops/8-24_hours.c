@@ -3,7 +3,7 @@
 /**
  * jack_bauer- prints every minute of the day from 00:00 to 23:59
  *
- * Return : void AKA 0 
+ * Return : void AKA 0
 */
 
 void jack_bauer(void)
@@ -15,7 +15,7 @@ void jack_bauer(void)
 		for (Min = 0; Min < 60; Min++)
 		{
 			_putchar((Hr / 10) + 48);
-      
+
 			_putchar((Hr % 10) + 48);
 
 			_putchar(':');
