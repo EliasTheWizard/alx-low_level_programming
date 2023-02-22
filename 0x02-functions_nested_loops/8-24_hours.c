@@ -17,14 +17,14 @@ void jack_bauer(void)
 			_putchar((Hr / 10) + 48);
       
 			_putchar((Hr % 10) + 48);
-			
-      _putchar(':');
-			
-      _putchar((Min / 10) + 48);
-			
-      _putchar((Min % 10) + 48);
-			
-      _putchar('\n');
+
+			_putchar(':');
+
+			_putchar((Min / 10) + 48);
+
+			_putchar((Min % 10) + 48);
+
+			_putchar('\n');
 		}
 	}
 }
