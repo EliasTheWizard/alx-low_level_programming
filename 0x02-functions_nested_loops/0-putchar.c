@@ -20,7 +20,7 @@ int main(void)
 		W_count++;
 	}
 	
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
