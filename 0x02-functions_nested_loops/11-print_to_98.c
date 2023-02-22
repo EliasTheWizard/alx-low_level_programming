@@ -7,21 +7,24 @@
  *
  * Return: void
  */
- void print_to_98(int num)
- {
-    if (num < 98)
-    {
-        for (num = num; num <= 98; num++)
-        {
-            printf("%d, ", num);
-        }
-    }
-    else
-    {
-        for (num = num; num >= 98; num--)
-        {
-            printf("%d, ", num);
-        }
-    }
-    _putchar('\n');
+void print_to_98(int num)
+{
+	if (num < 98)
+	{
+		for (num = num; num < 98; num++)
+		{
+			printf("%d, ", num);
+		}
+	}
+	else
+	{
+		for (num = num; num > 98; num--)
+		{
+			printf("%d, ", num);
+		}
+	}
+
+	printf("98");
+
+	_putchar('\n');
 }
