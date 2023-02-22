@@ -46,6 +46,8 @@ void print_times_table(int n)
 					_putchar((product / 10) + 48);
 					_putchar((product % 10) + 48);
 				}
+				
+				_putchar((product % 10) + 48);
 			}
 			
 			_putchar('\n');
