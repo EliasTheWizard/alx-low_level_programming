@@ -24,7 +24,5 @@ void print_to_98(int num)
 		}
 	}
 
-	printf("98");
-
-	_putchar('\n');
+	printf("98\n");
 }
