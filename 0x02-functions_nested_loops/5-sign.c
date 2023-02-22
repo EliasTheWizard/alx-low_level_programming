@@ -7,7 +7,6 @@
  *
  * Return: 1 if num > 0, 0 if num == 0 and -1 if num < 0
 */
-
 int print_sign(int num)
 {
 	if (num > 0)
