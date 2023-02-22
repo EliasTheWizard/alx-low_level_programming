@@ -9,9 +9,9 @@
  */
 int _islower(int ch)
 {
-	/** 
+	/**
 	 * 97 and 122 are ASCII for lowercase characters
-	 */ 
+	 */
 	if (ch >= 97 && ch <= 122)
 	{
 		return (1);
