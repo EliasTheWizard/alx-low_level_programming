@@ -11,10 +11,7 @@ int _isupper(int ch)
 {
   /* we refer to ASCII code A-Z*/
   if (ch >= 65 && ch <= 90)
-  {
     return (1);
-  }
   else
-  {
     return (0);
-  }
+}
