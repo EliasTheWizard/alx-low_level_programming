@@ -1,15 +1,15 @@
 /**
- * _isupper - Check if the character is in Uppercase
+ * _isupper - check if c is upper
  *
- * @ch: variable holds the character
+ * @c: input for alphabet
  *
- * Return: 1 if character is in uppercase else 0
- */
-int _isupper(int ch)
+ * Return: 1 if its uppercase, 0 if not
+*/
+
+int _isupper(int c)
 {
-  /* we refer to ASCII code A-Z*/
-  if (ch >= 65 && ch <= 90)
-    return (1);
-  else
-    return (0);
+	if (c >= 65 && c <= 90)
+		return (1);
+	else
+		return (0);
 }
