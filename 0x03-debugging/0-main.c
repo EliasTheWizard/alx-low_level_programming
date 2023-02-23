@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
- * code to test the function positive_or_negative()
- *
  * main - Entry point
  *
  * Return: 0 Success
