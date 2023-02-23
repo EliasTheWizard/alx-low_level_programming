@@ -5,12 +5,13 @@
  *
  * Return: 0 Success
  */
+
 int main(void)
 {
-	int num;
+	int i;
 	
-	num = 98 % 2;
-	positive_or_negative(num);
+	i = 98 % 2;
+	positive_or_negative(i);
 
 	return (0);
 }
