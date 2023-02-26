@@ -17,15 +17,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		puts("is postive");
+		puts("%d is postive", n);
 	}
 	else if (n < 0)
 	{
-		puts("is negative");
+		puts("%d is negative", n);
 	}
 	else
 	{
-		puts("is zero");
+		puts("%d is zero", n);
 	}
 
 	return (0);
