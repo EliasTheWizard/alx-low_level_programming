@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- * this Script checks if number is positive or negative
  * main - Entry Point
  *
  * Return: 0 Succes
