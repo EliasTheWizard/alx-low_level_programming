@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /**
- * this Script checks if number is positive or negative
  * main - Entry Point
- * 
+ *
  * Return: 0 Succes
  */
 int main(void)
@@ -17,7 +16,7 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%d is postive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
