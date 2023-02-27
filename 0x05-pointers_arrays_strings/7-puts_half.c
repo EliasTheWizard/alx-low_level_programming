@@ -1,11 +1,11 @@
 #include"main.h"
 
 /**
- * puts_half - prints half of a string
+ * puts_half - Cuts string in half
  *
- * @str: string parameter input
+ * @str: Variable to take in string
  *
- * Return: Nothing
+ * Return: Void
 */
 
 void puts_half(char *str)
@@ -18,11 +18,15 @@ void puts_half(char *str)
 	if (l % 2 == 0)
 	{
 		for (n = l / 2; str[n] != '\0'; ++n)
+		{
 			_putchar(str[n]);
+		}
 	} else
 	{
 		for (n = ((l - 1) / 2) + 1; str[n] != '\0'; ++n)
+		{
 			_putchar(str[n]);
+		}
 	}
 	_putchar('\n');
 }
