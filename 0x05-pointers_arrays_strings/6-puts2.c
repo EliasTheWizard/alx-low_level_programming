@@ -5,7 +5,7 @@
  *
  * @str: Variable to take string
  *
- * Return: Void 
+ * Return: Void
 */
 
 void puts2(char *str)
