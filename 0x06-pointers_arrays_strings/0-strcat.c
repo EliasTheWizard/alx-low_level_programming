@@ -10,17 +10,17 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int c, c2;
+	int str, str2;
 
-	c = 0;
+	str = 0;
 	/*find the size of dest array*/
-	while (dest[c])
-		c++;
+	while (dest[str])
+		str++;
 
 	/* iterate through each src array value without the null byte*/
-	for (c2 = 0; src[c2] ; c2++)
+	for (str2 = 0; src[str2] ; str2++)
 		/*append src[c2] to dest[c] while overwritting the null byte in dest*/
-		dest[c++] = src[c2];
+		dest[str++] = src[str2];
 
 	return (dest);
 }
