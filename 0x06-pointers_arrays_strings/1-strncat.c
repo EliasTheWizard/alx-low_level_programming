@@ -4,12 +4,12 @@
  *
  * @dest: pointer to destination input
  * @src: pointer to source input
- * @bytes: most number of bytes from source input
+ * @bts: most number of bytes from source input
  *
- * Return: (dest), destination input 
+ * Return: (dest) destination input 
 */
 
-char *_strncat(char *dest, char *src, int bytes)
+char *_strncat(char *dest, char *src, int bts)
 {
 	int c, i;
 
@@ -19,13 +19,9 @@ char *_strncat(char *dest, char *src, int bytes)
 	while (dest[c])
 		c++;
 
-	/**
-	 * src does not need to be null terminated
-	 * if it contains n or more bytes
-	*/
-	for (i = 0; i < bytes && src[i] != '\0'; i++)
+	for (i = 0; i < bts && src[i] != '\0'; i++)
 		dest[c + i] = src[i];
-	/*null terminate dest*/
+	
 	dest[c + i] = '\0';
 
 	return (dest);
