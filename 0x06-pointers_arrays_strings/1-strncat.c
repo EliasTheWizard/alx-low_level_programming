@@ -15,13 +15,12 @@ char *_strncat(char *dest, char *src, int bts)
 
 	c = 0;
 
-	/*find size of dest array*/
 	while (dest[c])
 		c++;
 
 	for (i = 0; i < bts && src[i] != '\0'; i++)
 		dest[c + i] = src[i];
-	
+
 	dest[c + i] = '\0';
 
 	return (dest);
