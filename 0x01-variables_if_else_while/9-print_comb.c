@@ -9,12 +9,13 @@ int main(void)
 {
 	int numbers = 48;
 
-	while (numbers >= 48 && numbers <= 57)
+	while (numbers <= 57)
 	{
 		putchar(numbers);
-    putchar(',');
-    putchar(' ');
+		putchar(',');
+		putchar(' ');
 		numbers++;
+		break;
 	}
 	putchar('\n');
 
