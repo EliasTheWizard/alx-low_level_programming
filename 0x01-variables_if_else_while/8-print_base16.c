@@ -14,6 +14,14 @@ int main(void)
 		putchar(numbers);
 		numbers++;
 	}
+
+	numbers = 97;
+
+	while (numbers >= 97 && numbers <= 102)
+	{
+		putchar(numbers);
+		numbers++;
+	}
 	putchar('\n');
 
 	return (0);
