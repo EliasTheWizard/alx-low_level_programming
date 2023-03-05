@@ -14,8 +14,8 @@ int main(void)
 		if (asci != 101 && asci != 113)
 		{
 			break;
-			putchar(asci);
 		}
+		putchar(asci);
 		asci++;
 	}
 	putchar('\n');
