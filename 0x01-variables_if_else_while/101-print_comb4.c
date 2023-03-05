@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point. Print Numbers in CSV
+ *
+ * Return: 0 success
+ */
 int main(void)
 {
 	int num1 = 0;
