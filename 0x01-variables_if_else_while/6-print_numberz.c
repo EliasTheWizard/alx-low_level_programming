@@ -12,6 +12,7 @@ int main(void)
 	while (numbers >= 48 && numbers <= 57)
 	{
 		putchar(numbers);
+		numbers++;
 	}
 	putchar('\n');
 
