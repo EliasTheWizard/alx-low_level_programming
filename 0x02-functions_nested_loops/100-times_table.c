@@ -5,7 +5,7 @@
  *
  * @n: takes number input
  *
- *Return : 0 void
+ * Return : 0 void
  */
 
 void print_times_table(int n)
