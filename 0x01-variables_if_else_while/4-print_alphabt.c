@@ -11,7 +11,11 @@ int main(void)
 
 	while (asci >= 97 && asci <= 122)
 	{
-		putchar(asci);
+		if (asci == 101 && asci == 113)
+		{
+			continue;
+			putchar(asci);
+		}
 		asci++;
 	}
 	putchar('\n');
