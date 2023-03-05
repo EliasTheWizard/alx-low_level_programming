@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (asci != 101 && asci != 113)
 		{
-			continue;
+			break;
 			putchar(asci);
 		}
 		asci++;
