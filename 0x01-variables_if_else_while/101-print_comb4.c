@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int digit1 = 0;
+	int num1 = 0;
 	int num2, num3;
 
 	while (num1 <= 9)
