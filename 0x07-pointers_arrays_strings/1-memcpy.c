@@ -11,7 +11,7 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int map;
+	unsigned int i;
 
 	for (map = 0; map < n; map++)
 		dest[map] = src[map];
