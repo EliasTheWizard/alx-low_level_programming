@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy -Copies Memory Area
+ * *_memcpy -Copies Memory Area
  *
  * @*dest: Pointer to Variable dest
  * @*src: pointer to Variable src
