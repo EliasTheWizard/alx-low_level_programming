@@ -1,4 +1,6 @@
 #include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 /* Keep all recursion function prototypes*/
 int _putchar(char c);
